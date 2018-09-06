@@ -18,13 +18,13 @@
   </properties>
 
   <dependencies>
-	<!-- https://mvnrepository.com/artifact/com.google.guava/guava -->
+    <!-- https://mvnrepository.com/artifact/com.google.guava/guava -->
 	<dependency>
 	    <groupId>com.google.guava</groupId>
 	    <artifactId>guava</artifactId>
 	    <version>25.1-jre</version>
 	</dependency>
-	<dependency>
+    <dependency>
 	    <groupId>commons-codec</groupId>
 	    <artifactId>commons-codec</artifactId>
 	    <version>1.10</version>
@@ -34,43 +34,36 @@
         <artifactId>joda-time</artifactId>
         <version>2.9.9</version>
    </dependency>
-   <!-- https://mvnrepository.com/artifact/org.jdom/jdom -->
-	<dependency>
+   <dependency>
 	    <groupId>org.jdom</groupId>
 	    <artifactId>jdom</artifactId>
 	    <version>2.0.2</version>
 	</dependency>
-	<!-- https://mvnrepository.com/artifact/ch.ethz.ganymed/ganymed-ssh2 -->
 	<dependency>
 	    <groupId>ch.ethz.ganymed</groupId>
 	    <artifactId>ganymed-ssh2</artifactId>
 	    <version>262</version>
 	</dependency>
-	<!-- https://mvnrepository.com/artifact/org.apache.directory.studio/org.apache.commons.io -->
 	<dependency>
 	    <groupId>org.apache.directory.studio</groupId>
 	    <artifactId>org.apache.commons.io</artifactId>
 	    <version>2.4</version>
 	</dependency>
-	<!-- https://mvnrepository.com/artifact/commons-net/commons-net -->
 	<dependency>
 	    <groupId>commons-net</groupId>
 	    <artifactId>commons-net</artifactId>
 	    <version>3.6</version>
 	</dependency>
-    <!-- https://mvnrepository.com/artifact/javatar/javatar -->
 	<dependency>
 	    <groupId>javatar</groupId>
 	    <artifactId>javatar</artifactId>
 	    <version>2.5</version>
 	</dependency>
-	<!-- https://mvnrepository.com/artifact/proxool/proxool -->
 	<dependency>
 	    <groupId>proxool</groupId>
 	    <artifactId>proxool</artifactId>
 	    <version>0.8.3</version>
 	</dependency>
-	<!-- https://mvnrepository.com/artifact/org.openengsb.wrapped/com.jcraft.jsch-all -->
 	<dependency>
 	    <groupId>org.openengsb.wrapped</groupId>
 	    <artifactId>com.jcraft.jsch-all</artifactId>
@@ -86,7 +79,7 @@
 	    <artifactId>quartz</artifactId>
 	    <version>2.2.1</version>
 	</dependency>
-    <dependency>
+	<dependency>
 	    <groupId>com.belerweb</groupId>
 	    <artifactId>pinyin4j</artifactId>
 	    <version>2.5.1</version>
@@ -101,20 +94,7 @@
 	    <artifactId>commons-lang3</artifactId>
 	    <version>3.4</version>
 	</dependency>
-	<!-- https://mvnrepository.com/artifact/org.apache.kafka/kafka -->
 	<dependency>
-	    <groupId>org.apache.kafka</groupId>
-	    <artifactId>kafka_2.12</artifactId>
-	    <version>2.0.0</version>
-	</dependency>
-	<!-- https://mvnrepository.com/artifact/net.sourceforge.cobertura/cobertura-runtime -->
-	<dependency>
-	    <groupId>net.sourceforge.cobertura</groupId>
-	    <artifactId>cobertura-runtime</artifactId>
-	    <version>2.1.1</version>
-	    <type>pom</type>
-	</dependency>
-    <dependency>
 	    <groupId>com.google.zxing</groupId>
 	    <artifactId>core</artifactId>
 	    <version>3.3.3</version>
@@ -144,8 +124,13 @@
     <artifactId>jcommon</artifactId>
     <version>1.0.24</version>
 </dependency>
-    
-    
+<dependency>
+    <groupId>javax.servlet</groupId>
+    <artifactId>javax.servlet-api</artifactId>
+    <version>4.0.1</version>
+    <scope>provided</scope>
+</dependency>
+
   </dependencies>
   <build>
     <plugins>
